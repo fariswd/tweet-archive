@@ -5,15 +5,23 @@ Archive tweet from twitter 'saved as html' file.
 - 15225 tweets collected from 01-10-2013 until 05-15-2019
 - 4 parted saved html raw file
 - use query ```from``` , ```since``` and ```until``` on search ```from:cindvia_jkt48 since:2012-01-01 until:2014-01-01```
+- csv file view online here: https://docs.google.com/spreadsheets/d/1p4z_PcvtrjWNC8bLSBDqlDKTNtmxImERMzA1p3eGICo/edit?usp=sharing 
 
 ## Use sample?
 ```
 save as html on someone / searched page
 save to ./raw_data/<your_file.html>
-change ```index.js``` pathToHtml to ./raw_data/<your_file.html>
+change index.js pathToHtml to ./raw_data/<your_file.html>
 npm install
 npm start
 check result.json
+```
+
+### Convert as csv
+```
+edit option on index.js (choose json file) eg result.json
+npm run convert
+check result.csv
 ```
 
 ## Model Data
